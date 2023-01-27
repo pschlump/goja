@@ -1,6 +1,6 @@
-module github.com/dop251/goja
+module github.com/pschlump/goja
 
-go 1.16
+go 1.19
 
 require (
 	github.com/dlclark/regexp2 v1.7.0
@@ -10,3 +10,5 @@ require (
 	golang.org/x/text v0.3.7
 	gopkg.in/yaml.v2 v2.4.0
 )
+
+replace github.com/dop251/goja_nodejs => ../goja_nodejs

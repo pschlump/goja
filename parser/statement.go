@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dop251/goja/ast"
-	"github.com/dop251/goja/file"
-	"github.com/dop251/goja/token"
+	"github.com/pschlump/goja/ast"
+	"github.com/pschlump/goja/file"
+	"github.com/pschlump/goja/token"
 	"github.com/go-sourcemap/sourcemap"
 )
 

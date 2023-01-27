@@ -1,0 +1,8 @@
+
+console.log ( "A" );
+b = {
+	A: 33,
+	Bb: "xyz"
+}
+console.log ( "b=", JSON.stringify(b) );
+

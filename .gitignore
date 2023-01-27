@@ -1,3 +1,6 @@
 .idea
 *.iml
 testdata/test262
+,*
+ed.1
+ed.2
