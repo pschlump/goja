@@ -4,11 +4,15 @@ go 1.19
 
 require (
 	github.com/dlclark/regexp2 v1.7.0
-	github.com/dop251/goja_nodejs v0.0.0-20211022123610-8dd9abb0616d
 	github.com/go-sourcemap/sourcemap v2.1.3+incompatible
-	github.com/kr/pretty v0.3.0 // indirect
+	github.com/pschlump/goja_nodejs v0.0.0-00010101000000-000000000000
 	golang.org/x/text v0.3.7
 	gopkg.in/yaml.v2 v2.4.0
 )
 
-replace github.com/dop251/goja_nodejs => ../goja_nodejs
+require (
+	github.com/kr/pretty v0.3.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
+)
+
+replace github.com/pschlump/goja_nodejs => ../goja_nodejs
